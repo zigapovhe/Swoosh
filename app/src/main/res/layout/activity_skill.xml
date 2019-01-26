@@ -46,7 +46,7 @@
         <ToggleButton
                 android:text="@string/beginner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton2" android:layout_weight="1"
+                android:layout_height="wrap_content" android:id="@+id/beginnerBtn" android:layout_weight="1"
                 android:textOff="@string/beginner" android:textOn="@string/beginner"
                 android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"
                 android:fontFamily="@font/montserrat"
@@ -54,7 +54,7 @@
         <ToggleButton
                 android:text="@string/baller"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/toggleButton" android:layout_weight="1"
+                android:layout_height="wrap_content" android:id="@+id/ballerBtn" android:layout_weight="1"
                 android:textOff="@string/baller" android:textOn="@string/baller"
                 android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"
                 android:fontFamily="@font/montserrat"
