@@ -64,5 +64,4 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="16dp"
             app:layout_constraintBottom_toBottomOf="parent" android:background="@drawable/swoosh_button"
             android:textStyle="bold" android:contentDescription="@string/description"/>
-
 </android.support.constraint.ConstraintLayout>

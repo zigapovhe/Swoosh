@@ -3,7 +3,7 @@
           xmlns:dist="http://schemas.android.com/apk/distribution"
           package="si.povhe.swoosh">
 
-    <dist:module dist:instant="true"/>
+    <dist:module dist:instant="false"/>
 
     <application
             android:allowBackup="true"
