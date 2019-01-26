@@ -10,4 +10,8 @@
     <string name="mensBtn">Mens</string>
     <string name="womensBtn">Womens</string>
     <string name="coedBtn">Co-Ed</string>
+    <string name="finishBtn">Finish</string>
+    <string name="iama">I am a:</string>
+    <string name="beginner">Beginner</string>
+    <string name="baller">Baller</string>
 </resources>
