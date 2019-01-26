@@ -32,43 +32,46 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView5" android:textColor="@android:color/white"
             app:layout_constraintTop_toBottomOf="@id/swLogo"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="112dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintHorizontal_bias="0.498" android:fontFamily="@font/montserrat"/>
+            android:fontFamily="@font/montserrat" android:textSize="30sp"/>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.0">
+            android:layout_height="88dp"
+            android:layout_marginTop="56dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="1.0">
         <ToggleButton
                 android:text="@string/beginner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/beginnerBtn" android:layout_weight="1"
+                android:layout_height="match_parent" android:id="@+id/beginnerBtn" android:layout_weight="1"
                 android:textOff="@string/beginner" android:textOn="@string/beginner"
                 android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"
                 android:fontFamily="@font/montserrat"
-                style="@style/Base.Widget.AppCompat.Button.Borderless" android:layout_marginEnd="16dp"/>
+                style="@style/Base.Widget.AppCompat.Button.Borderless" android:layout_marginEnd="16dp"
+                android:textSize="24sp"/>
         <ToggleButton
                 android:text="@string/baller"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/ballerBtn" android:layout_weight="1"
+                android:layout_height="match_parent" android:id="@+id/ballerBtn" android:layout_weight="1"
                 android:textOff="@string/baller" android:textOn="@string/baller"
                 android:textColor="@android:color/white" android:background="@drawable/swoosh_toggle"
                 android:fontFamily="@font/montserrat"
-                style="@style/Base.Widget.AppCompat.Button.Borderless" android:layout_marginStart="16dp"/>
+                style="@style/Base.Widget.AppCompat.Button.Borderless" android:layout_marginStart="16dp"
+                android:textSize="24sp"/>
     </LinearLayout>
     <Button
             android:text="@string/finishBtn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="888dp"
+            android:layout_height="78dp"
             android:id="@+id/finishBtn" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
             android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.498" style="@style/Widget.AppCompat.Button.Borderless"
             android:textColor="@android:color/white" android:background="@drawable/swoosh_button"
-            android:textSize="14sp"/>
+            android:textSize="24sp"/>
 
 </android.support.constraint.ConstraintLayout>
